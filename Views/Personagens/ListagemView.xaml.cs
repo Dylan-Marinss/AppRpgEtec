@@ -1,4 +1,5 @@
 //using Android.AdServices.Signals;
+using AppRpgEtec.Models;
 using AppRpgEtec.ViewModels.Personagens;
 
 namespace AppRpgEtec.Views.Personagens;
@@ -6,7 +7,9 @@ namespace AppRpgEtec.Views.Personagens;
 public partial class ListagemView : ContentPage
 {
 	ListagemPersonagemViewModel viewModel;
-	public ListagemView()
+    private object personagemSelecionado;
+
+    public ListagemView()
 	{
 		InitializeComponent();
 
@@ -20,5 +23,7 @@ public partial class ListagemView : ContentPage
         base.OnAppearing();
 		_ = viewModel.ObterPersonagens();
     }
+
+	
 
 }

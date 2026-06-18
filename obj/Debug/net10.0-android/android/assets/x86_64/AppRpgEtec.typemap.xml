@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="AppRpgEtec" mvid="97512ec673574c40bf8f74833a99f048">
+<api type="debug" assembly-name="AppRpgEtec" mvid="fb115e72cbf744eebc09a73529f5ed26">
   <java-to-managed>
     <entry java-name="crc648cace2d65dd9830e/MainActivity" managed-name="AppRpgEtec.MainActivity, AppRpgEtec" managed-type-token-id="33554443" />
     <entry java-name="crc648cace2d65dd9830e/MainApplication" managed-name="AppRpgEtec.MainApplication, AppRpgEtec" managed-type-token-id="33554444" />

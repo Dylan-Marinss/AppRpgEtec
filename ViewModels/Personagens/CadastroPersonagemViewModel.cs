@@ -20,7 +20,7 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		pService = new PersonagemService(token);
 		_ = ObterClasse();
 
-		SalvarCommand = new Command(async () => { await SalvarPersonagem(); });
+		SalvarCommand = new Command(async () => { await SalvarPersonagem(); }, () => ValidarCampos());
         CancelarCommand = new Command(async () => CancelarCadastro());
 	}
 
@@ -54,6 +54,7 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		set {
 			nome = value;
 			OnPropertyChanged();
+			((Command)SalvarCommand).ChangeCanExecute();
 		}
 	}
 
@@ -63,6 +64,7 @@ public class CadastroPersonagemViewModel : BaseViewModel
 		set {
 			pontosVida = value;
 			OnPropertyChanged();
+			OnPropertyChanged(nameof(CadastroHabilitado));
 		}
 	}
 
@@ -237,6 +239,23 @@ public class CadastroPersonagemViewModel : BaseViewModel
 				CarregarPersonagem();
 			}
 		}
+	}
+
+
+	public bool CadastroHabilitado
+	{
+		get
+		{
+			return (PontosVida > 0);
+		}
+	}
+
+	public bool ValidarCampos()
+	{
+		return !string.IsNullOrEmpty(Nome)
+			&& CadastroHabilitado
+			&& Forca != 0
+			&& Defesa != 0;
 	}
 
 

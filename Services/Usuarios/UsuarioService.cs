@@ -18,7 +18,6 @@ namespace AppRpgEtec.Services.Usuarios
         }
 
         private string _token;
-
         public UsuarioService(string token)
         {
             _request = new Request();

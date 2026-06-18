@@ -1394,7 +1394,6 @@ D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc64
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\ContainerView.java
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\ContentViewGroup.java
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\FragmentManagerExtensions_CallBacks.java
-D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\GlobalWindowInsetListener.java
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\LayoutViewGroup.java
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\LocalizedDigitsKeyListener.java
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\MauiAccessibilityDelegateCompat.java
@@ -1713,3 +1712,6 @@ D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\assets\x8
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\assets\x86_64\System.Memory.Data.dll
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\assets\x86_64\System.Memory.Data.jlo.xml
 D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\assets\x86_64\System.Memory.Data.typemap.xml
+D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\MauiMaterialContextThemeWrapper.java
+D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6452ffdc5b34af3a0f\MauiWindowInsetListener.java
+D:\Dylan\PAM 2\AulaRpgApi\AppRpgEtec\obj\Debug\net10.0-android\android\src\crc6488302ad6e9e4df1a\MauiAppCompatActivity_PredictiveBackCallback.java
